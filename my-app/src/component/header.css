@@ -1,0 +1,15 @@
+.App-header {
+  background-color: #789CF5;
+  min-height: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(3px + 2vmin); 
+  font-display: relative;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.App-header p {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
