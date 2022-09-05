@@ -1,15 +1,37 @@
 .App-header {
   background-color: #789CF5;
-  min-height: 1vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction:row;
   justify-content: center;
-  font-size: calc(3px + 2vmin); 
-  font-display: relative;
-  color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  display: flex;
+  align-items: flex-start; 
+  margin: 0 auto;
+  margin: -1vh;
 }
 .App-header p {
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  margin-left: -17vw;
+  margin-right:60vw;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  align-items: center;
+  font-weight: bold;
+  color: black;
+}
+.App-header a {
+margin-left: 20vw;
+font-family:'Times New Roman', Times, serif;
+font-weight: bold;
+color: white;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+
+  }
+}
+.App-logo-header {
+  margin-bottom: -5px;
+  height: 3vmin;
+  align-items: flex-start;
+  display: inline-flex;
+  align-items: center;
+  pointer-events: none;
 }

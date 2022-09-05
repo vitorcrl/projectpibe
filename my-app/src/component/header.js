@@ -1,15 +1,21 @@
+import React from 'react';
+import logo from '../logo.svg';
 import '../component/header.css';
 
-function App() {
+function Header() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="App-header">
+      <header>
       <p >
+      <img src={logo} className="App-logo-header" alt="logo" />
          Pibe Enseada
+      
         </p>
+        <a> Nossa História</a>
+         <a> Contato</a>
       </header>
     </div>
   );
 }
 
-export default App;
+export default Header;
